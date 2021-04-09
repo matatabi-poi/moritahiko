@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* header */
+
+.header__text {
+	font-size: 1.5em;
+}
+
+/* main */
+
+.newsList {
+	width: 90%;
+	max-width: 600px;
+	padding: 10px 10px;
+}
+.newsList dl {
+	padding: 0 5px;
+}
+.newsList dt {
+	margin-bottom: 5px;
+	font-size: 1.5em;
+}
+.newsList dd {
+	font-size: 0.9em;
+	text-align: start;
+}
+.news .morebtn {
+	right: calc(50% - 120px);
+}
+.aboutHead {
+	font-size: 1.5em;
+}
+.aboutBodyTransparent {
+	padding: 50px 0 40px;
+}
+.aboutBody h3 {
+	font-size: 1.7em;
+}
+.aboutBodyInner {
+	width: 450px;
+	margin: 0 auto 10px;
+}
+.aboutBodyInner__title {
+	font-size: 1.5em;
+}
+.aboutBodyInner__text {
+	font-size: 1.3em;
+}
+.aboutFoot {
+	font-size: 1.5em;
+}
+.about .morebtn {
+	right: calc(50% - 120px);
+}
+.menuDrinkWrap,
+.menuFoodWrap {
+	max-width: 700px;
+	margin: 0 auto;
+}
+.menuInnerHead__img {
+	width: 70%;
+}
+.menuInnerBody {
+	width: 70%;
+}
+.menuInnerBody__title {
+	font-size: 1.2em;
+}
+.menuInnerBody__price {
+	font-size: 1em;
+}
+.menuInnerBody__text {
+	font-size: 1.2em;
+}
+.menuDrink .morebtn {
+	margin: 0 auto;
+}
+.menuFood .morebtn {
+	right: calc(50% - 120px);
+}
+.goodsItem {
+	width: 70%;
+	max-width: 480px;
+}
+.goodsItem:last-child {
+	margin-bottom: 10px;
+}
+.goodsInner__title {
+	font-size: 1.2em;
+}
+.goodsInner__price {
+	font-size: 1em;
+}
+.goodsText {
+	font-size: 1.2em;
+}
+.goods .morebtn {
+	right: calc(50% - 120px);
+}
+.accessName p {
+	margin-bottom: 10px;
+}
+.accessImg {
+	max-width: 520px;
+	margin-bottom: 15px;
+}
+.infoTime {
+	max-width: 520px;
+	font-size: 1.3em;
+}
+.infoTime dt {
+	line-height: 1.5;
+	float: left;
+	clear: both;
+}
+.infoTime dd {
+	padding-left: 115px;
+	line-height: 1.5;
+}
+.accessMap {
+	margin-bottom: 20px;
+}
+.infoAddress {
+	width: 510px;
+	margin-bottom: 50px;
+	padding-left: 15px;
+	font-size: 1.3em;
+	line-height: 1.6;
+}
+.accessFoot {
+	width: 510px;
+	position: absolute;
+	right: calc(50% - 255px);
+	bottom: 50px;
+}
+.accessFoot li {
+	font-size: 1.2em;
+	background: url(../images/metro_icon.png) no-repeat left center / contain;
+}
+.accessFoot li:last-child {
+	background-image: url(../images/train_icon.png);
+}
+.link_fb {
+	width: 120px;
+}
+.footNav {
+	width: 500px;
+	display: flex;
+	flex-wrap: nowrap;
+	font-size: 1.2em;
+}
+.footNav li {
+	width: 15%;
+	margin-bottom: 10px;
+}
